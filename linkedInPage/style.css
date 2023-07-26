@@ -1,0 +1,81 @@
+
+body {
+    background-color: #f0f6f6; /* Light blue-gray background */
+    display: flex;
+    flex-direction:row;
+}
+
+.left {
+    width: 300px;
+    background-color: #f5d0d0; /* Light pink */
+    margin: 10px;
+    padding: 20px; /* Adding some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.leftTop {
+    width: 290px;
+    height: 400px; /* Reducing the height */
+    background-color: #eef5f5; /* Very light blue */
+    margin: 5px;
+}
+
+.leftBottom {
+    width: 290px;
+    height: 180px; /* Reducing the height */
+    background-color: #87ce87; /* Light green */
+    margin: 5px;
+}
+
+.middle {
+    width: 600px;
+    height: 800px;
+    background-color: #e09430; /* Light orange */
+    margin: 10px;
+    padding: 20px; /* Adding some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.middleChild {
+    width: 570px;
+    height: 790px; /* Reducing the height */
+    background-color: #18627a; /* Light blue */
+    margin: 10px;
+}
+
+.middleC1 {
+    width: 550px;
+    height: 150px; /* Reducing the height */
+    background-color: #707070; /* Gray */
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.middleC2 {
+    width: 550px;
+    height: 570px;
+    background-color: #404040; /* Dark gray */
+    margin: 5px;
+}
+
+.right {
+    width: 300px;
+    background-color: #d0d0db; /* Light gray */
+    margin: 10px;
+    padding: 20px; /* Adding some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.rightTop {
+    width: 290px;
+    height: 400px; /* Reducing the height */
+    background-color: #f08080; /* Light coral */
+    margin: 5px;
+}
+
+.rightBottom {
+    width: 290px;
+    height: 150px; /* Reducing the height */
+    background-color: #3636bd; /* Dark blue */
+    margin: 5px;
+}
