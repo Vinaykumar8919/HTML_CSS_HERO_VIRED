@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(184, 198, 211);
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 230px;
+    padding: 5px;
+
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    width: 394px;
+    margin: 5px;
+    height: 25px;
+    border-radius: 5px;
+}
+label{
+    font-size: larger;
+    margin-left: 5px;
+}
+#lb{
+    background-color: rgb(106, 231, 90);
+    height: 35px;
+}
