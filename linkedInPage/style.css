@@ -1,13 +1,13 @@
 
 body {
-    background-color: #f0f6f6; /* Light blue-gray background */
+    background-color: #def5f5; /* Light blue-gray background */
     display: flex;
     flex-direction:row;
 }
 
 .left {
     width: 300px;
-    background-color: #f5d0d0; /* Light pink */
+    background-color: #f3dada; /* Light pink */
     margin: 10px;
     padding: 20px; /* Adding some padding */
     border-radius: 10px; /* Rounded corners */
@@ -16,66 +16,71 @@ body {
 .leftTop {
     width: 290px;
     height: 400px; /* Reducing the height */
-    background-color: #eef5f5; /* Very light blue */
+    background-color: #95caca; /* Very light blue */
     margin: 5px;
+    border-radius: 10px;
 }
 
 .leftBottom {
     width: 290px;
-    height: 180px; /* Reducing the height */
-    background-color: #87ce87; /* Light green */
+    height: 390px; 
+    background-color: #87ce87; 
     margin: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
-
+/* ****************************************middle*********************************************************  */
 .middle {
     width: 600px;
-    height: 800px;
-    background-color: #e09430; /* Light orange */
+    border-radius: 10px;
+    background-color: #d39545;
     margin: 10px;
-    padding: 20px; /* Adding some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .middleChild {
     width: 570px;
-    height: 790px; /* Reducing the height */
-    background-color: #18627a; /* Light blue */
+    height: 830px;
+    background-color: #18627a;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .middleC1 {
-    width: 550px;
-    height: 150px; /* Reducing the height */
-    background-color: #707070; /* Gray */
-    margin: 10px;
-    margin-top: 20px;
+    width: 560px;
+    height: 220px;
+    background-color: #7996a0;
+    margin: 5px;
+    margin-top: 15px;
 }
 
 .middleC2 {
-    width: 550px;
+    width: 560px;
     height: 570px;
-    background-color: #404040; /* Dark gray */
+    background-color: #404040;
     margin: 5px;
 }
-
 .right {
     width: 300px;
-    background-color: #d0d0db; /* Light gray */
+    background-color: #d0d0db; 
     margin: 10px;
-    padding: 20px; /* Adding some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 20px; 
+    border-radius: 10px; 
 }
 
 .rightTop {
     width: 290px;
-    height: 400px; /* Reducing the height */
-    background-color: #f08080; /* Light coral */
+    height: 400px; 
+    background-color: #e68b8b; 
     margin: 5px;
+    border-radius: 10px;
 }
 
 .rightBottom {
     width: 290px;
-    height: 150px; /* Reducing the height */
-    background-color: #3636bd; /* Dark blue */
+    height: 450px; 
+     border-radius: 10px;
+    background-color: #8a8add; 
     margin: 5px;
 }
