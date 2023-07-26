@@ -1,0 +1,18 @@
+.box1{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    margin-bottom: 2px;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+/* margin is external space */
+/* padding is space given by the internal elements to parent */
+.box2{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    padding: 20px;
+    
+}
