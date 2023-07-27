@@ -1,16 +1,42 @@
-.box1{
-    height: 100px;
+.parent{
+    height: 1000px;
     width: 300px;
     background-color: white;
     margin-bottom: 2px;
     padding: 20px;
     overflow-x: hidden;
     border:1px solid black;
-   position: relative;
+    position: relative;
    top: 100px;
    left: 300px;
+   /*only use this when you want to cahng the poistion of any 
+   html element relative to its original position   */
 }
-
+/* absolute works on child elements whose parent is relative */
+.child{
+    height: 30%;
+    width: 35%;
+    background-color: rgb(187, 111, 147);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border:  1px solid rgb(74, 11, 234);
+}
 body{
     background-color: rgb(185, 242, 223);
+}
+.chatbot{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: green;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    font-size: large;
+    font-weight: bolder;
 }

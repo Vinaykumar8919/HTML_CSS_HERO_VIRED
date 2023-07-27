@@ -1,0 +1,23 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: #FFE17B;
+    border: 1px solid black;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.box:hover{
+    height: 400px;
+    width: 400px;
+    background-color: #749BC2;
+    border: 1px solid black;
+    transform: scale(1 1);
+    transition: 1s ease-in-out;
+    border-radius: 10%;
+    box-shadow: -9px -7px 4px 5px rgba(119,181,126,1);
+}
+body{
+    display: flex;
+    align-items: center;
+}

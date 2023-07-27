@@ -1,0 +1,31 @@
+
+body{
+    background-color: rgb(185, 242, 223);
+}
+.chatbot{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(196, 29, 84);
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    font-size: large;
+    font-weight: bolder;
+}
+.stick{
+    height: 30px;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    position: sticky;
+}
