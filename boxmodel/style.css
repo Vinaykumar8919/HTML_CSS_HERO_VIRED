@@ -1,18 +1,16 @@
 .box1{
     height: 100px;
-    width: 200px;
-    background-color: red;
+    width: 300px;
+    background-color: white;
     margin-bottom: 2px;
     padding: 20px;
     overflow-x: hidden;
+    border:1px solid black;
+   position: relative;
+   top: 100px;
+   left: 300px;
 }
 
-/* margin is external space */
-/* padding is space given by the internal elements to parent */
-.box2{
-    height: 200px;
-    width: 300px;
-    background-color: blue;
-    padding: 20px;
-    
+body{
+    background-color: rgb(185, 242, 223);
 }
